@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Taiwind and Daisy UI -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <title>home</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Item 1</a></li>
+                        <li>
+                            <a>Parent</a>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-[#358AFF] text-xl lg:text-2xl">
+                    <img class="w-10 h-10" src="icon/Candely Logo.PNG" alt="">
+                    Calendly</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Item 1</a></li>
+                    <li>
+                        <details>
+                            <summary>Parent</summary>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a>Item 3</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn">Button</a>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="text-center px-4 lg:px-72 lg:mt-20">
+            <h1 class="text-4xl lg:text-7xl font-semibold lg:font-bold text-[#0B3558]">Easy scheduling ahead</h1>
+            <p class="text-[#476788] lg:text-xl mt-2 lg:mt-10">Calendly is your scheduling automation platform for
+                eliminating the
+                back-and-forth
+                emails to find the
+                perfect time — and so much more.</p>
+
+            <p class="text-[#476788] mt-2 lg:mt-7 text-sm">Sign up free with Google or Microsoft.</p>
+            <div class="">
+                <button class="btn mt-2 lg:mt-4 bg-[#006BFF] text-base font-semibold text-white">
+                    <img class="w-10 h-10 bg-white p-1" src="icon/search.png" alt="">
+                    Sign up with Goggle
+                </button>
+                <button class="btn bg-[#0B3558] text-base font-semibold text-white">
+                    <img class="w-10 h-10 bg-white p-1" src="icon/icons8-microsoft-48.png" alt="">
+                    Sing Up With Microsoft
+                </button>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

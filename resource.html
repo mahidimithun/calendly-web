@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Taiwind and Daisy UI -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- link: https://calendly.com/resources -->
+
+    <title>Document</title>
+</head>
+
+<body class="">
+
+    <header>
+        <!-- Navbar -->
+        <div class="navbar bg-base-100 font-semibold">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Item 1</a></li>
+                        <li>
+                            <a>Parent</a>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-blue-600 text-3xl">Calendly</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Product</a></li>
+                    <li>
+                        <details>
+                            <summary>Solution</summary>
+                            <ul class="p-2">
+                                <li><a>Sales</a></li>
+                                <li><a>Marketing</a></li>
+                                <li><a>Information Techonolgy</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a>Enterprise</a></li>
+                    <li><a>Pricing</a></li>
+                    <li>
+                        <details>
+                            <summary>Resources</summary>
+                            <ul class="p-2">
+                                <li><a>Customer Stories</a></li>
+                                <li><a>Resource Center</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
+                        </details>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="navbar-end gap-5">
+                <a href="">Log In</a>
+                <a class="btn bg-blue-600 text-white">Get started</a>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <!-- 1st section -->
+        <div class="grid grid-cols-2 card card-side bg-base-100 shadow-xl py-20 bg-slate-300 mx-auto">
+            <div class="card-body ">
+                <h2 class="text-blue-600 text-xl uppercase">Resources</h2>
+                <h2 class="card-title font-black text-7xl py-5">Explore all of our Resources</h2>
+                <p class="text-xl leading-10">Explore Calendly's library of e-books, webinars, customer stories,
+                    tutorials, and other helpful
+                    content — everything you need to become a scheduling superstar!</p>
+
+            </div>
+
+            <div class="">
+                <div class="card w-full bg-white rounded-md">
+                    <div class="card-body leading-7">
+                        <h2 class="card-title text-8xl font-black">MasterClass Series</h2>
+                        <p class=" text-4xl">present by <span class="text-blue-600">Calendly</span></p>
+                        <div class="card-actions pt-4">
+                            <button class="btn bg-[#7fff00] text-2xl">with Morgan J.Ingram</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-10">
+                    <h1 class="font-bold text-2xl">The Art of 'cold to close'</h1>
+                    <a class="font-semibold" href="#">Register</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Serial Button -->
+        <div class="flex justify-center mt-6">
+
+            <button class="hover:bg-slate-100 px-10 py-3 rounded text-xl font-semibold">E-books & Guides</button>
+            <button class="hover:bg-slate-100 px-10 py-3 rounded text-xl font-semibold">Webinars</button>
+            <button class="hover:bg-slate-100 px-10 py-3 rounded text-xl font-semibold">Customer Stories</button>
+            <button class="hover:bg-slate-100 px-10 py-3 rounded text-xl font-semibold">Blog</button>
+            <button class="hover:bg-slate-100 px-10 py-3 rounded text-xl font-semibold">Video Tutorials</button>
+            <button class="hover:bg-slate-100 px-10 py-3 rounded text-xl font-semibold">Help Center</button>
+
+            
+
+        </div>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
