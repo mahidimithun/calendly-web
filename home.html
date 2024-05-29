@@ -10,11 +10,13 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- link: https://calendly.com/resources -->
+
 
     <title>home</title>
 </head>
 
-<body>
+<body class="lg:mx-24">
 
     <header>
 
@@ -29,16 +31,24 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold text-base">
+                        <li><a>Product</a></li>
                         <li>
-                            <a>Parent</a>
+                            <a>Solution</a>
                             <ul class="p-2">
                                 <li><a>Submenu 1</a></li>
                                 <li><a>Submenu 2</a></li>
                             </ul>
                         </li>
-                        <li><a>Item 3</a></li>
+                        <li><a>Enterprise</a></li>
+                        <li><a>Pricing</a></li>
+                        <li>
+                            <a>Resources</a>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <a class="btn btn-ghost text-[#358AFF] text-xl lg:text-2xl">
@@ -46,26 +56,39 @@
                     Calendly</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
+                <ul class="menu menu-horizontal px-1 font-bold text-base">
+                    <li><a>Product</a></li>
                     <li>
                         <details>
-                            <summary>Parent</summary>
+                            <summary>Solution</summary>
                             <ul class="p-2">
                                 <li><a>Submenu 1</a></li>
                                 <li><a>Submenu 2</a></li>
                             </ul>
                         </details>
                     </li>
-                    <li><a>Item 3</a></li>
+                    <li><a>Enterprise</a></li>
+                    <li><a>Pricing</a></li>
+                    <li>
+                        <details>
+                            <summary>Resources</summary>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </details>
+                    </li>
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn">Button</a>
+                <a class="lg:mr-4 font-semibold hidden lg:block">Log In</a>
+                <a class="btn bg-[#006BFF] text-white font-bold w-24 lg:w-36">Get Started</a>
             </div>
         </div>
 
     </header>
+
+    <hr>
 
     <main>
 
@@ -89,6 +112,90 @@
                 </button>
 
             </div>
+
+            <div class="grid grid-cols-2 gap-5 lg:px-52 mt-4">
+                <div>
+                    <hr>
+
+                </div>
+
+
+
+                <div>
+
+                    <hr>
+                </div>
+            </div>
+            <h1 class="mt-4">
+                <a class="text-[#006BFF] font-semibold" href="">Sing up free with email.</a>
+                No credit card required
+            </h1>
+        </section>
+
+        <section class=" bg-[#F3FAFF] mt-4 lg:mt-10">
+
+            <!-- parent card  -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-28 lg:py-14">
+                <!-- 1st  card -->
+                <div class="card card-side bg-base-100 shadow-xl h-48">
+                    <figure class="pl-8"><img class="h-24 w-24 rounded-full" src="/image/profile-1.jpg" alt="Movie" />
+
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-3xl">Talk with customer</h2>
+                        <p class="pt-4">Active 1 h ago</p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary ">Watch</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd card -->
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+                            alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New movie is released!</h2>
+                        <p>Click the button to watch on Jetflix app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3rd -->
+
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+                            alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New movie is released!</h2>
+                        <p>Click the button to watch on Jetflix app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4th -->
+
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+                            alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New movie is released!</h2>
+                        <p>Click the button to watch on Jetflix app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
         </section>
 
     </main>
